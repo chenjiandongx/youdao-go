@@ -15,11 +15,13 @@ $ git clone https://github.com/chenjiandongx/youdao-go.git
 
 * Windows
 ```bash
+$ go get
 $ go build -ldflags "-s -w" -o yd.exe cli.go core.go
 ```
 
 * Linux/MacOS
 ```bash
+$ go get
 $ go build -ldflags "-s -w" -o yd cli.go core.go
 ```
 
