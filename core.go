@@ -12,7 +12,7 @@ import (
 const (
 	KEY     = "1945325576"
 	KEYFROM = "Youdao-dict-v21"
-	URL     = "http://fanyi.youdao.com/openapi.do?keyfrom=%s&key=%s&type=data&doctype=json&version=1.1&q=%s"
+	URL     = "https://fanyi.youdao.com/openapi.do?keyfrom=%s&key=%s&type=data&doctype=json&version=1.1&q=%s"
 	VERSION = "0.1.0"
 )
 const (
